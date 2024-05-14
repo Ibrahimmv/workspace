@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basliq{
+    background: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+.basliq p{
+    margin-left: -1000px;
+}
+
+section{
+    background-color: cyan;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    flex-direction: row;
+}
+
+ul li .active{
+    color: blue;
+}
+
+nav h2{
+    color: blue;
+}
+
